@@ -16,7 +16,7 @@ const userController = {
     try {
       const user = await User.findById(req.params.id).populate('thoughts').populate('friends');
       if (!user) {
-        return res.status(404).json({ message: 'No user found with this ID!' });
+        return res.status(404).json({ message: 'No user found' });
       }
       res.json(user);
     } catch (err) {
