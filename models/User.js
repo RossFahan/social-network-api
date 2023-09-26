@@ -27,7 +27,7 @@ const UserSchema = new mongoose.Schema({
   ],
 });
 
-// Create a virtual to retrieve the length of the user's friends array on query
+// virtual to retrieve the length of the user's friends array on query
 UserSchema.virtual('friendCount').get(function () {
   return this.friends.length;
 });
