@@ -13,6 +13,9 @@
 
 The Social Network API is a backend application built with the MERN stack. It allows you to create, read, update, and delete Users and Thoughts in a social network. It is designed to offer an API for a potential frontend application that would let users interact with each other, share thoughts, and much more. 
 
+## Demo
+[Video Demo Link](https://drive.google.com/file/d/1L_r5PFSK0O0KXQrHuxb8-WtZWq2Ln9yH/view?usp=sharing)
+
 ## How to Use
 
 ### Setup
