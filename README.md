@@ -37,7 +37,7 @@ The Social Network API is a backend application built with the MERN stack. It al
    - `PUT /api/thoughts/:id`: Updates a thought by ID.
    - `DELETE /api/thoughts/:id`: Deletes a thought by ID.
 
-Refer to API documentation (if available) for more details.
+
 
 ## Author Info
 ### Links
