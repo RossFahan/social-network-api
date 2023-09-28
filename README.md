@@ -37,7 +37,13 @@ The Social Network API is a backend application built with the MERN stack. It al
    - `PUT /api/thoughts/:id`: Updates a thought by ID.
    - `DELETE /api/thoughts/:id`: Deletes a thought by ID.
 
+ 3. Friend Operations
+   - `POST /api/users/:userId/friends/:friendId`: Adds a friend to a user's friend list.
+   - `DELETE /api/users/:userId/friends/:friendId`: Removes a friend from a user's friend list.
 
+4. Reaction Operations
+- `POST /api/thoughts/:thoughtId/reactions`: Adds a reaction to a thought.
+- `DELETE /api/thoughts/:thoughtId/reactions/:reactionId`: Removes a reaction from a thought.
 
 ## Author Info
 ### Links
